@@ -95,6 +95,7 @@ export default async function ProductPage({ params }: Props) {
   if (!pricedProduct) {
     notFound()
   }
+console.log(pricedProduct);
 
   return (
     <ProductTemplate
