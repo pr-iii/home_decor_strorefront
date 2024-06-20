@@ -24,7 +24,7 @@ export default async function Nav() {
               className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
               data-testid="nav-store-link"
             >
-              Home decor
+              Space X Interiors 
             </LocalizedClientLink>
           </div>
 
@@ -40,6 +40,34 @@ export default async function Nav() {
                   Search
                 </LocalizedClientLink>
               )}
+               <LocalizedClientLink
+                className="hover:text-ui-fg-base"
+                href="/account"
+                data-testid="nav-account-link"
+              >
+                Shop Art
+              </LocalizedClientLink>
+              <LocalizedClientLink
+                className="hover:text-ui-fg-base"
+                href="/account"
+                data-testid="nav-account-link"
+              >
+                Gallery Walls
+              </LocalizedClientLink>
+              <LocalizedClientLink
+                className="hover:text-ui-fg-base"
+                href="/account"
+                data-testid="nav-account-link"
+              >
+                Home Decor
+              </LocalizedClientLink>
+              <LocalizedClientLink
+                className="hover:text-ui-fg-base"
+                href="/account"
+                data-testid="nav-account-link"
+              >
+                Home Furnishing
+              </LocalizedClientLink>
               <LocalizedClientLink
                 className="hover:text-ui-fg-base"
                 href="/account"
